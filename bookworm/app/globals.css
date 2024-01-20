@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Bad+Script&family=Julius+Sans+One&family=Open+Sans:wght@300&family=Playfair+Display:ital,wght@1,500&family=Roboto:wght@300&family=Rubik+Vinyl&family=Shadows+Into+Light&display=swap');
+
+
+  .body {
+    --background: #D8A48C;
+    --accent-color: #93644D;
+    --light-text: #EEDED0;
+    --dark-text: #333333; /* Change this to the desired darker text color */
+    --font-heading: "Shadows Into Light", cursive;
+    --font-text: "Open Sans", sans-serif;
+    --font-size-small: 14px;
+    --font-size-medium: 22px;
+    --font-size-large: 32px;
+    --font-size-xlarge: 42px;
+
+    background-color: var(--background);
+  }
+
+
+  .accent-color {
+    color: var(--accent-color);
+  }
+
+  .light-text {
+    color: var(--light-text);
+  }
+
+  .dark-text {
+    color: var(--dark-text);
+  }
+
+  .heading {
+    font-family: var(--font-heading);
+  }
+
+  .text {
+    font-family: var(--font-text);
+  }
+
+  .button {
+    background-color: var(--accent-color);
+    color: var(--light-text);
+    font-family: var(--font-heading);
+    font-size: var(--font-size-small);
+   
+  }
+
+
+
+.animate-in {
+  animation: animateIn 0.3s ease 0.15s both;
+}
+
+@keyframes animateIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
